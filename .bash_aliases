@@ -37,4 +37,4 @@ alias ...="cd ../../"
 alias ....="cd ../../../"
 alias .....="cd ../../../../"
 
-alias showaliasses="cat ~/.custom_aliasses"
+alias showaliasses="cat ~/.bash_aliases"
