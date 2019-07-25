@@ -22,6 +22,8 @@ alias tf="vendor/bin/phpunit --filter"
 alias ts="vendor/bin/phpunit --stop-on-failure"
 alias tsd="vendor/bin/phpunit --stop-on-failure --debug"
 
+alias clearapp="php artisan cache:clear && php artisan config:clear && php artisan route:clear && php artisan view:clear"
+
 # PostgreSQL
 alias postgres='sudo -u postgres psql postgres'
 
